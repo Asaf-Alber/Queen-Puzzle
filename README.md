@@ -1,8 +1,49 @@
-# Queen Puzzle
+# 👑 N-Queens Puzzle Solver in C
 
-This project implements a solution to the N-Queens problem (for 8 queens) in C.  
-The program finds a specific numbered solution and prints the board configuration.
+This project implements a recursive backtracking solution to the classic N-Queens problem.
+It finds valid configurations where N queens can be placed on an N×N chessboard such that none attack each other.
 
-## How to Use
+## 🔧 Features
 
-1. Compile with a C compiler (e.g. gcc):
+- Solves the N-Queens puzzle using recursion and backtracking.
+- Prints the board with queen positions.
+- Written in C for educational purposes.
+
+## 🚀 How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Asaf-Alber/Queen-Puzzle.git
+cd Queen-Puzzle
+```
+
+2. Compile the code:
+```bash
+gcc queens.c -o queens
+```
+
+3. Run the program:
+```bash
+./queens
+```
+
+## 🧪 Example Output
+
+```
+Q . . . . . . .
+. . . . Q . . .
+. . . . . . Q .
+. . . Q . . . .
+. . . . . Q . .
+. Q . . . . . .
+. . . . . . . Q
+. . Q . . . . .
+```
+
+## 👨‍💻 Author
+
+Created by [Asaf Alber](https://github.com/Asaf-Alber)
+
+## 📄 License
+
+This project is licensed under the MIT License.
